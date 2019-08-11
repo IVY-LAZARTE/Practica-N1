@@ -1,4 +1,4 @@
-# Practica-N1
+####### Practica-N1
 SISTEMAS EMPRESARIALES
 ###  1 ¿ Explique que son los sistemas empresariales?
 ####     Es un sistema que tiene impacto  muy importante en el funcionamiento
@@ -15,7 +15,7 @@ SISTEMAS EMPRESARIALES
 ###    Justifique su respuesta. 
 ####    
 ###  4 Explique cuales son las diferencias entre escalabilidad horizontal y escalabilidad vertical
-####   la escalabilidad horizontal se refiere se refiere al incremento de componentes.
+####   la escalabilidad horizontal se refiere al incremento de componentes.
 ####   la escalabilidad vertical se refiere a actualizaciones o modernizacion de componentes existentes.
 ###  5 Que es un servidor web y un servidor de aplicaciones
 ####
