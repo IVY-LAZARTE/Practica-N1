@@ -19,9 +19,11 @@ SISTEMAS EMPRESARIALES
 ####   la escalabilidad vertical se refiere a actualizaciones o modernizacion de componentes existentes.
 ###  5 Que es un servidor web y un servidor de aplicaciones
 ####
-####   un servidor web es un programa informático que procesa una aplicación del lado del servidor, realizando conexiones
-####   bidireccionales o unidireccionales y síncronas o asíncronas con el cliente y generando o cediendo una respuesta en cualquier
-####   lenguaje o Aplicación del lado del cliente.
+####   un servidor web es un programa informático que procesa una aplicación del lado del servidor, 
+####   realizando conexiones bidireccionales o unidireccionales y síncronas o asíncronas con el cliente
+####   y generando o cediendo una respuesta en cualquier lenguaje o Aplicación del lado del cliente.
 ####
-####   Un servidor de aplicacion es un dispositivo de software que proporcionan servicios de aplicación a las computadoras cliente.
-####   Generalmente gestiona la mayor parte (o la totalidad) de las funciones de la lógica de negocio y acceso a los datos de la ####   aplicación.
+####   Un servidor de aplicacion es un dispositivo de software que proporcionan servicios de aplicación 
+####   a las computadoras cliente.
+####   Generalmente gestiona la mayor parte (o la totalidad) de las funciones de la lógica de negocio
+####   y acceso a los datos de la ####   aplicación.
