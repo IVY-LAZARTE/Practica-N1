@@ -29,5 +29,7 @@ SISTEMAS EMPRESARIALES
 ####   Un servidor de aplicacion es un dispositivo de software que proporcionan servicios de aplicación 
 ####   a las computadoras cliente.
 ####   Generalmente gestiona la mayor parte (o la totalidad) de las funciones de la lógica de negocio
-####   y acceso a los datos de la ####   aplicación.
+####   y acceso a los datos de la aplicación.
 >
+> ###  6 Con un grafico explique como funciona el protocolo HTTP
+
