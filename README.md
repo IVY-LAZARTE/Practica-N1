@@ -17,8 +17,8 @@ SISTEMAS EMPRESARIALES
 ###    Justifique su respuesta. 
 >    
 > ###  4 Explique cuales son las diferencias entre escalabilidad horizontal y escalabilidad vertical
-####   la escalabilidad horizontal se refiere al incremento de componentes.
-####   la escalabilidad vertical se refiere a actualizaciones o modernizacion de componentes existentes.
++ ####   la escalabilidad horizontal se refiere al incremento de componentes.
++ ####   la escalabilidad vertical se refiere a actualizaciones o modernizacion de componentes existentes.
 >
 > ###  5 Que es un servidor web y un servidor de aplicaciones
 >
@@ -35,25 +35,25 @@ SISTEMAS EMPRESARIALES
 >
 > ###  7 Explique los elementos importantes de REQUEST EN HTTP
 >
-#### elementos clave de la secuencia de solicitud
-#### Método http (la acción a realizar)
-#### la página para acceder (una url)
-#### parámetros de forma (como argumentos para un método)
-#### facilita todos los datos de la solicitud actual a través HTTP Request,
++ #### elementos clave de la secuencia de solicitud
++ #### Método http (la acción a realizar)
++ #### la página para acceder (una url)
++ #### parámetros de forma (como argumentos para un método)
++ #### facilita todos los datos de la solicitud actual a través HTTP Request,
 #### un objeto sobre el que podremos consultar información sobre el cliente 
 #### que realiza la solicitud y datos que pueda estar enviando.
 >
 > ### 8 Explique los elementos importantes de RESPONSE EN HTTP
 >
-#### Elementos clave de la corriente de respuesta
-#### Un codigo de estado (Para si la solicitud fue exitosa)
-#### tipo de contenido (TEXTO, IMAGEN, HTML, ETC)
-#### El contenido (EL HTML REAL, IMAGEN, ETC)
-#### Tienen como cometido imprimir en el documento HTML generado un mensaje o valor de variable. 
++ #### Elementos clave de la corriente de respuesta
++ #### Un codigo de estado (Para si la solicitud fue exitosa)
++ #### tipo de contenido (TEXTO, IMAGEN, HTML, ETC)
++ #### El contenido (EL HTML REAL, IMAGEN, ETC)
++ #### Tienen como cometido imprimir en el documento HTML generado un mensaje o valor de variable. 
 #### Este método es tan comúnmente utilizado que existe una abreviación del mismo de manera
 #### a facilitar su escritura:
 >
-#### Otro elemento interesante de este objeto Response es el método Redirect. 
++ #### Otro elemento interesante de este objeto Response es el método Redirect. 
 #### Este método nos permite el enviar automáticamente al internauta a una página
 #### que nosotros decidamos.
 > 
@@ -67,4 +67,29 @@ SISTEMAS EMPRESARIALES
 + ### java EE define tipos de contenedores los cuales son:
    * contenedor web
    * contenedor de negocio (o de EJBs)
+#### Un componente es una unidad de software que forma parte
+#### de una aplicación
++ ### Java EE define los siguientes tipos de componentes:
+   * Componente cliente: Cliente AWT, Swing, Applet y
+     navegador Web
+   * Componente web: Servlet, JSP y JSF
+   * Componente de negocio: EJB
++ ### Cada tipo cubre necesidades concretas y se basan en APIs
+     especificas.
+#### Son los servicios que deben ofrecer los contenedores Java EE.
+#### Java EE define los siguientes servicios:
+   * De directorio: para la indexación y búsqueda de
+     componentes y recursos
+   * De despliegue: para poder personalizar los componentes y
+     recursos
+   * De transaccionalidad: para poder ejecutar distintas acciones
+   * en una misma unidad transaccional
+   * De seguridad: para poder autenticar y autorizar a los
+     usuarios de la aplicación
+   * De acceso a datos: para facilitar el acceso a Bases de Datos
+   * De conectividad: para poder acceder fácilmente a distintos EIS
+   * De mensajería: para poder comunicarse con otros componentes, aplicaciones o EIS
+> ### 11 Investigue los métodos más utilizados de las clases HttpServlet, 
+> ### HttpServletRequest y HttpServletResponse, y para cada uno de los métodos muestre un ejemplo. 
+
 
