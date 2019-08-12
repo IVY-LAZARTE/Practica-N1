@@ -56,6 +56,7 @@ SISTEMAS EMPRESARIALES
 ####   y acceso a los datos de la aplicación.
 >
 > ###  6 Con un grafico explique como funciona el protocolo HTTP
+![Alt text](http.gif "explicacion")
 
 >
 > ###  7 Explique los elementos importantes de REQUEST EN HTTP
