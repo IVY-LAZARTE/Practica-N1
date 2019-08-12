@@ -32,4 +32,39 @@ SISTEMAS EMPRESARIALES
 ####   y acceso a los datos de la aplicación.
 >
 > ###  6 Con un grafico explique como funciona el protocolo HTTP
+>
+> ###  7 Explique los elementos importantes de REQUEST EN HTTP
+>
+#### elementos clave de la secuencia de solicitud
+#### Método http (la acción a realizar)
+#### la página para acceder (una url)
+#### parámetros de forma (como argumentos para un método)
+#### facilita todos los datos de la solicitud actual a través HTTP Request,
+#### un objeto sobre el que podremos consultar información sobre el cliente 
+#### que realiza la solicitud y datos que pueda estar enviando.
+>
+> ### 8 Explique los elementos importantes de RESPONSE EN HTTP
+>
+#### Elementos clave de la corriente de respuesta
+#### Un codigo de estado (Para si la solicitud fue exitosa)
+#### tipo de contenido (TEXTO, IMAGEN, HTML, ETC)
+#### El contenido (EL HTML REAL, IMAGEN, ETC)
+#### Tienen como cometido imprimir en el documento HTML generado un mensaje o valor de variable. 
+#### Este método es tan comúnmente utilizado que existe una abreviación del mismo de manera
+#### a facilitar su escritura:
+>
+#### Otro elemento interesante de este objeto Response es el método Redirect. 
+#### Este método nos permite el enviar automáticamente al internauta a una página
+#### que nosotros decidamos.
+> 
+> ### 9 Describe con un grafico la arquitectura JAVA EE
+####
+>
+> ### 10 Explique que son los contenedores, componentes, y servicios de JAVA EE
+>
+#### Un contenedor es un entorno de ejecucion que provee al componente
+#### una serie de servicios.
++ ### java EE define tipos de contenedores los cuales son:
+   * contenedor web
+   * contenedor de negocio (o de EJBs)
 
