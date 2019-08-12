@@ -14,7 +14,31 @@ SISTEMAS EMPRESARIALES
 ####     permiten integracion con otras tecnologias, tienen una arquitectura multicapa.
 >
 > ###  3 Investigue y proponga cinco instituciones que requiriran aplicaciones de mision critica.
-###    Justifique su respuesta. 
+> ###    Justifique su respuesta.
+* #### 1) correo electrónico
+#### un elemento vital en la comunicación corporativa, cuya caída parece 
+#### convertir todo en un caos. En  el caso de las aplicaciones de nivel operativo puede ser aún peor,
+#### pues puede quedar detenida la actividad principal de la organización,
+#### con todas las consecuencias que esto implica para el negocio.
+* #### 2) ministerio de salud 
+#### el cual necesitaria una aplicacion que tenga escalabilidad porque siempre va ir
+#### en forma de crecimiento los usuarios la natalidad por ejemplo, debera ser flexible 
+#### para los cambios de actualizacion que habria, debera tener seguridad 
+#### no cualquier persona solo personal autorizado puede tener los datos e informacion de las personas 
+#### que utilizen tal aplicacion. 
+* #### 3) universidad publica de el alto 
+#### necesitaria una aplicacion de mision critica ya que el manejo de recursos economicos y 
+#### humanos debe ser transparente debe tener total flexibilidad y sobre todo seguridad no 
+#### debe existir ninguna vulneracion de sus datos ademas que debe ser presiso y eficiente.
+* #### 4) manaco
+#### la zapateria manaco deberia tener una aplicacion de misison critica 
+#### ya que deberia tener accesibilidad de ver los modelos y precios que ofrecen a sus usuarios 
+#### y poder venderlos ofrecerlos via online por lo tanto deberia tener flexibilidad a crecer
+#### y tener seguridad para q no puedan vulnerar sus datos ademas de eso ser escalable.
+* #### 5) helados panda
+#### deberia acceder a una aplicacion de mision critica para poder promocionar sus helados
+#### y tener mas acercamiento con las personas y poder vender sus productos de manera online
+#### publicando sus precios y sabores.
 >    
 > ###  4 Explique cuales son las diferencias entre escalabilidad horizontal y escalabilidad vertical
 + ####   la escalabilidad horizontal se refiere al incremento de componentes.
@@ -91,5 +115,12 @@ SISTEMAS EMPRESARIALES
    * De mensajería: para poder comunicarse con otros componentes, aplicaciones o EIS
 > ### 11 Investigue los métodos más utilizados de las clases HttpServlet, 
 > ### HttpServletRequest y HttpServletResponse, y para cada uno de los métodos muestre un ejemplo. 
+
+#### public abstract class HttpServlet extends GenericServlet: 
+#### Es la clase de la cual se debe extender para crear un servlet HTTP.
+#### De la clase que extiende obtiene los métodos ya definidos además de los cuales define:
+* doGet(HttpServletRequest req, HttpServletResponse resp): Es el método llamado para procesar información que haya sido enviado con el método GET. Este método es llamado concurrentemente para cada cliente por lo que hay que estar atento por posibles variables compartidas que causen problemas.
+* doPost(HttpServletRequest req, HttpServletResponse resp): Ídem al anterior pero para el método POST, en general se implementa sólo un método y el otro lo referencia.
+
 
 
