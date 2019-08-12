@@ -96,9 +96,9 @@ SISTEMAS EMPRESARIALES
 > ### 9 Describe con un grafico la arquitectura JAVA EE
 ![Alt text](https://user-images.githubusercontent.com/53720544/62846550-09b21b00-bc9f-11e9-92c0-9d8b40996f55.gif)
 >
-#### La especificación de J2EE define su arquitectura basándose en los conceptos de capas, 
+#### La especificación de JavaEE define su arquitectura basándose en los conceptos de capas, 
 #### containers, componentes, servicios y las características de cada uno de éstos
-#### Las aplicaciones J2EE son divididas en cuatro capas: la capa cliente, la capa web, 
+#### Las aplicaciones JavaEE son divididas en cuatro capas: la capa cliente, la capa web, 
 #### la capa negocio y la capa datos
 + #### Capa Cliente
 
