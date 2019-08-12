@@ -58,6 +58,16 @@ SISTEMAS EMPRESARIALES
 > ###  6 Con un grafico explique como funciona el protocolo HTTP
 ![Alt text](https://user-images.githubusercontent.com/53720544/62845954-5810eb00-bc9a-11e9-8c5b-6b06e6f86f88.gif)
 
+#### El funcionamiento del http se basa en un esquema de petición-respuesta entre el servidor 
+#### web y el “agente usuario” o cliente que realiza la solicitud de transmisión de datos. 
+#### Un  cliente puede ser un explorador determinado, cuando intentamos abrir una página web, 
+#### o los  rastreadores web (webcrawlers o arañas web) que las inspeccionan.
+#### Por ejemplo: Al abrir una página web específica, el intercambio informativo entre nuestro 
+#### explorador web y el servidor donde reside la información establecerá de qué manera debe 
+#### transmitirse la información, en qué lugar están las imágenes y en qué orden se me mostrarán, etc. 
+#### Este intercambio de comandos de solicitud y códigos de respuesta da como  resultado 
+#### la representación en mi computador de la misma información contenida  originalmente en el servidor, 
+#### que puede estar a miles de kilómetros de distancia.
 >
 > ###  7 Explique los elementos importantes de REQUEST EN HTTP
 >
@@ -86,6 +96,33 @@ SISTEMAS EMPRESARIALES
 > ### 9 Describe con un grafico la arquitectura JAVA EE
 ![Alt text](https://user-images.githubusercontent.com/53720544/62846550-09b21b00-bc9f-11e9-92c0-9d8b40996f55.gif)
 >
+#### La especificación de J2EE define su arquitectura basándose en los conceptos de capas, 
+#### containers, componentes, servicios y las características de cada uno de éstos
+#### Las aplicaciones J2EE son divididas en cuatro capas: la capa cliente, la capa web, 
+#### la capa negocio y la capa datos
++ #### Capa Cliente
+
+#### Esta capa corresponde a lo que se encuentra en el computador del cliente.
+#### Es la interfaz gráfica del sistema y se encarga de interactuar con el usuario.
+#### JAVAEE tiene soporte para diferentes tipos de clientes incluyendo clientes HTML, applets Java y 
+#### aplicaciones Java.
++ ####  Capa Web
+
+#### Se encuentra en el servidor web y contiene la lógica de presentación que se utiliza para 
+#### generar una respuesta al cliente
+
++ ####  Capa Negocio
+
+#### Se encuentra en el servidor de aplicaciones y contiene el núcleo de la lógica del negocio de la aplicación. 
+#### Provee las interfaces necesarias para utilizar el servicio de componentes del negocio.
+#### Las componentes del negocio interactúan con la capa de datos y son típicamente implementadas como componentes EJB. 
+
++ ####  Capa Datos
+
+#### Esta capa es responsable del sistema de información de la empresa o Enterprise Information System (EIS)
+#### que incluye bases de datos, sistema de procesamiento datos, sistemas legados3.2 
+#### y sistemas de planificación de recursos. Esta capa es el punto donde las aplicaciones J2EE 
+#### se integran con otros sistemas no J2EE o con sistemas legados. 
 > ### 10 Explique que son los contenedores, componentes, y servicios de JAVA EE
 >
 #### Un contenedor es un entorno de ejecucion que provee al componente
