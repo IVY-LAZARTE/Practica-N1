@@ -122,7 +122,7 @@ SISTEMAS EMPRESARIALES
 #### Esta capa es responsable del sistema de información de la empresa o Enterprise Information System (EIS)
 #### que incluye bases de datos, sistema de procesamiento datos, sistemas legados3.2 
 #### y sistemas de planificación de recursos. Esta capa es el punto donde las aplicaciones J2EE 
-#### se integran con otros sistemas no J2EE o con sistemas legados. 
+#### se integran con otros sistemas no JavaEE o con sistemas legados. 
 > ### 10 Explique que son los contenedores, componentes, y servicios de JAVA EE
 >
 #### Un contenedor es un entorno de ejecucion que provee al componente
