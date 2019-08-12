@@ -84,7 +84,7 @@ SISTEMAS EMPRESARIALES
 #### que nosotros decidamos.
 > 
 > ### 9 Describe con un grafico la arquitectura JAVA EE
-####
+![Alt text](https://user-images.githubusercontent.com/53720544/62846550-09b21b00-bc9f-11e9-92c0-9d8b40996f55.gif)
 >
 > ### 10 Explique que son los contenedores, componentes, y servicios de JAVA EE
 >
